@@ -12,25 +12,25 @@ namespace zadanie_domowe
         {
             //oblicz pole kwadratu, pole prostokąta, obwód kwadratu, obwód prostokąta, zastosowanie console writeline, na końcu console readline
             int a = 6;
-            Console.WriteLine(a);
+            Console.WriteLine("bok jest równy:" + a);
 
             int poleKwadratu = a * a;
-            Console.WriteLine(poleKwadratu);
+            Console.WriteLine("Pole kwadratu wynosi:" + poleKwadratu);
 
-            int obwodKwadratu = a + a;
-            Console.WriteLine(obwodKwadratu);
+            int obwodKwadratu = a + a + a + a;
+            Console.WriteLine("Obwod kwadratu wynosi:" + obwodKwadratu);
 
             int b = 7;
-            Console.WriteLine(b);
+            Console.WriteLine("pierwszy bok jest równy:" + b);
 
             int c= 5;
-            Console.WriteLine(c);
+            Console.WriteLine("drugi bok jest równy:" + c);
 
             int poleProstokata = b * c;
-            Console.WriteLine(poleProstokata);
+            Console.WriteLine("pole prostokata wynosi:" + poleProstokata);
 
-            int obwodProstokata = b + c;
-            Console.WriteLine(obwodProstokata);
+            int obwodProstokata = b + b + c + c;
+            Console.WriteLine("Obwod kwadratu wynosi:" + obwodProstokata);
 
             Console.ReadLine();
 
