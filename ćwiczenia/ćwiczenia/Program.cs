@@ -10,7 +10,7 @@ namespace ćwiczenia
     {
         static void Main(string[] args)
         {
-            //int pudelkoLiczbCalkowitych = 5;
+            int pudelkoLiczbCalkowitych = 5;
             
             float pudelkoLiczbPoPrzecinku = 2.5f;
             string pudelkoZeWszystkim = "a b c 5";
@@ -19,11 +19,11 @@ namespace ćwiczenia
             string pudelkoBez = "88,2";
 
 
-            //int suma = pudelkoLiczbCalkowitych + pudelkoLiczbCalkowitych;
-            //Console.WriteLine(suma);
+            int suma = pudelkoLiczbCalkowitych + pudelkoLiczbCalkowitych;
+            Console.WriteLine(suma);
 
-            //double dodawania = pudelkoLiczbCalkowitych + pudelkoLiczbPoPrzecinku;
-            //Console.WriteLine(dodawania);
+            double dodawania = pudelkoLiczbCalkowitych + pudelkoLiczbPoPrzecinku;
+            Console.WriteLine(dodawania);
 
             int pudelkoLiczba = int.Parse(tylkoLiczba);
             Console.WriteLine(pudelkoLiczba);
