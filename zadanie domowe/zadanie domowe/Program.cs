@@ -32,7 +32,7 @@ namespace zadanie_domowe
             //int obwodProstokata = b + b + c + c;
             //Console.WriteLine("Obwod kwadratu wynosi:" + obwodProstokata);
 
-            //Oblicz pole trojkata jesli bok a wynosi 2,5, a wysokosc h wynosi 2.
+            //Oblicz pole trojkata jesli bok a wynosi 2,5, a wysokosc h wynosi 2.0
 
 
             Console.WriteLine("Ile wynosi pole trójkąta?");
