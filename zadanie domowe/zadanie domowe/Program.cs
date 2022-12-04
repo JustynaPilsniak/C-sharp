@@ -43,8 +43,9 @@ namespace zadanie_domowe
             double h = 2.0;
             Console.WriteLine("wysokość jest równa: " + h);
 
+            double wzor = 0.5;
 
-            double poleTrojkata = 0.5 * 2.5 * 2.0;
+            double poleTrojkata = wzor * a * h;
             Console.WriteLine("Pole trojkata wynosi: " + poleTrojkata); 
 
 
