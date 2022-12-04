@@ -28,7 +28,7 @@ namespace zadanie_domowe_2
             Console.WriteLine("Pole kwadrattu z bokiem c wynosi: " + poleKwadratuTrzy);
 
 
-            // a) jesli pole kwadratu jest mniejsze niz 16 wypisz :pole kwadratu jest mniejsze niz 16"
+            // a) jesli pole kwadratu jest mniejsze niz 16 wypisz :pole kwadratu jest mniejsze niz 16 "
 
             if (poleKwadratuJeden < 16)
                 Console.WriteLine("Pole kwadratu jeden jest mniejsze niz 16");
