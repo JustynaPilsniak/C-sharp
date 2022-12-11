@@ -47,7 +47,7 @@ namespace zadanie_domowe
 
             double poleTrojkata = wzor * a * h;
             Console.WriteLine("Pole trojkata wynosi: " + poleTrojkata); 
-
+            // double pole = (a*h)/2 tak można też zapisać
 
 
 
