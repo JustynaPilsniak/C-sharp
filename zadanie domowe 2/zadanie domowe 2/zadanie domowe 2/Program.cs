@@ -79,17 +79,17 @@ namespace zadanie_domowe_2
 
             if (obwodKwadratuJeden > 12)
                 Console.WriteLine("Obwód kwadratu jeden jest większy niż 12");
-            else if (obwodKwadratuJeden == 12)
+            else if (obwodKwadratuJeden > 12)
                 Console.WriteLine("Obwód kwadratu jeden jest większy niż 12");
 
             if (obwodKwadratuDwa > 12)
                 Console.WriteLine("Obwód kwadratu dwa jest większy niż 12");
-            else if (obwodKwadratuDwa == 12)
+            else if (obwodKwadratuDwa > 12)
                 Console.WriteLine("Obwód kwadratu dwa jest większy niż 12");
 
             if (obwodKwadratuTrzy > 12)
                 Console.WriteLine("Obwód kwadratu trzy jest większy niż 12");
-            else if (obwodKwadratuTrzy == 12)
+            else if (obwodKwadratuTrzy > 12)
                 Console.WriteLine("Obwód kwadratu trzy jest większy niż 12");
 
             Console.ReadKey();
